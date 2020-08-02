@@ -121,7 +121,7 @@ class AddExperience extends Component {
                     id="current"
                   />
                   <label className="form-check-label" htmlFor="current">
-                    Current Job
+                    Current
                   </label>
                 </div>
                 <TextAreaFieldGroup

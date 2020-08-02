@@ -199,11 +199,12 @@ class CreateProfile extends Component {
                   error={errors.githubusername}
                   info="If you want your latest repos and a Github link, inclued your username."
                 />
+
                 <TextAreaFieldGroup
                   placeholder="Short bio"
                   name="bio"
                   value={this.state.bio}
-                  onChange={this.state.onChange}
+                  onChange={this.onChange}
                   error={errors.bio}
                   info="Tell us a little about yourself"
                 />

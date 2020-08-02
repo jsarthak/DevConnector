@@ -268,7 +268,7 @@ class EditProfile extends Component {
                     placeholder="Short bio"
                     name="bio"
                     value={this.state.bio}
-                    onChange={this.state.onChange}
+                    onChange={this.onChange}
                     error={errors.bio}
                     info="Tell us a little about yourself"
                   />
