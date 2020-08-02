@@ -26,11 +26,7 @@ class Navbar extends Component {
           </Link>
         </li>
         <li className="nav-item">
-          <a
-            href=""
-            className="nav-link"
-            onClick={this.onLogoutClick.bind(this)}
-          >
+          <Link className="nav-link" onClick={this.onLogoutClick.bind(this)}>
             <img
               className="rounded-circle"
               src={user.avatar}
@@ -42,7 +38,7 @@ class Navbar extends Component {
               title="You must have a Gravatar connected to your email to display an image"
             />
             Logout
-          </a>
+          </Link>
         </li>
       </ul>
     );
